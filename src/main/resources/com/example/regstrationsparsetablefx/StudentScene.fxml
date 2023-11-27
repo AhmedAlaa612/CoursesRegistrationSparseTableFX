@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="studentPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.regstrationsparsetablefx.StudentSceneControllers">
+   <bottom>
+      <HBox prefHeight="54.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="allStudents" mnemonicParsing="false" onAction="#switchToAllStudents" prefHeight="54.0" prefWidth="233.0" text="All students" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="addStudent" mnemonicParsing="false" onAction="#switchToAdd" prefHeight="54.0" prefWidth="220.0" text="Add" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="deleteStudent" mnemonicParsing="false" onAction="#switchToDelete" prefHeight="54.0" prefWidth="220.0" text="Delete" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="enroll" mnemonicParsing="false" onAction="#switchToEnroll" prefHeight="54.0" prefWidth="220.0" text="Enroll" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="withdraw" mnemonicParsing="false" onAction="#switchToWithdraw" prefHeight="54.0" prefWidth="220.0" text="Withdraw" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
